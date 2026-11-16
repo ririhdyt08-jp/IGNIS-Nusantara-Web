@@ -1,0 +1,497 @@
+/**
+ * IGNIS NUSANTARA 2026 - Custom Styling
+ * Theme: EcoDigital for Environment (Sub-tema 8: Isu Lingkungan Global - Karhutla Indonesia)
+ * Color Palette:
+ *   - Hitam: #0b0e14, #111622, #181f2f (Deep Dark, Space, Contrast)
+ *   - Abu-abu: #242c3d, #3c485e, #64748b, #94a3b8, #cbd5e1 (Muted slate, borders, subtle UI)
+ *   - Putih: #ffffff, #f8fafc (Crisp headings, body readability)
+ *   - Oranye: #ff5722, #ff6b00, #ff8c00, #ffa040 (Fire flame, alerts, active elements, accents)
+ */
+
+:root {
+  --bg-primary: #0b0e14;
+  --bg-secondary: #111723;
+  --bg-card: #161e2e;
+  --bg-card-hover: #1c263a;
+  --border-color: #273449;
+  --border-light: #374660;
+  
+  --color-orange: #ff6b00;
+  --color-orange-glow: rgba(255, 107, 0, 0.35);
+  --color-orange-hover: #ff8533;
+  --color-orange-dark: #cc5500;
+  
+  --color-gray-dark: #1e2636;
+  --color-gray-mid: #64748b;
+  --color-gray-light: #94a3b8;
+  --color-gray-border: #334155;
+  
+  --text-white: #ffffff;
+  --text-light: #f1f5f9;
+  --text-muted: #94a3b8;
+  
+  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-light);
+  font-family: var(--font-main);
+  line-height: 1.65;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange);
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-white);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.text-orange {
+  color: var(--color-orange) !important;
+}
+
+.text-orange-glow {
+  color: var(--color-orange) !important;
+  text-shadow: 0 0 15px var(--color-orange-glow);
+}
+
+.bg-orange {
+  background-color: var(--color-orange) !important;
+  color: #ffffff !important;
+}
+
+/* Custom Navbar */
+.navbar-custom {
+  background-color: rgba(11, 14, 20, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  z-index: 1030;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 800;
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+  color: var(--text-white);
+}
+
+.navbar-custom .navbar-brand .brand-logo-fire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, #ff6b00, #ff2a00);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 16px var(--color-orange-glow);
+}
+
+.navbar-custom .nav-link {
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.55rem 1rem !important;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: var(--text-white);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.navbar-custom .nav-link.active {
+  color: var(--color-orange);
+  background-color: rgba(255, 107, 0, 0.1);
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-orange {
+  background: linear-gradient(135deg, #ff7711, #ff5500);
+  color: #ffffff;
+  border: 1px solid #ff7711;
+  font-weight: 600;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(255, 85, 0, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-orange:hover, .btn-orange:focus {
+  background: linear-gradient(135deg, #ff8526, #ff6600);
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(255, 85, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.btn-outline-orange {
+  border: 1.5px solid var(--color-orange);
+  color: var(--color-orange);
+  background: transparent;
+  font-weight: 600;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.btn-outline-orange:hover {
+  background-color: var(--color-orange);
+  color: #ffffff;
+  box-shadow: 0 4px 14px var(--color-orange-glow);
+  transform: translateY(-2px);
+}
+
+.btn-dark-custom {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-light);
+  font-weight: 500;
+  padding: 0.65rem 1.25rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-dark-custom:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--color-orange);
+  color: #ffffff;
+}
+
+/* Glassmorphism & Custom Cards */
+.card-custom {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.card-custom:hover {
+  border-color: var(--border-light);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+.card-custom.hover-lift:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 107, 0, 0.4);
+}
+
+/* Hero Section */
+.hero-wrapper {
+  position: relative;
+  background: radial-gradient(circle at 80% 20%, rgba(255, 85, 0, 0.12) 0%, transparent 60%),
+              radial-gradient(circle at 10% 80%, rgba(30, 41, 59, 0.4) 0%, transparent 50%),
+              var(--bg-primary);
+  padding: 4.5rem 0 3.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.status-live-pill {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 85, 0, 0.12);
+  border: 1px solid rgba(255, 85, 0, 0.35);
+  padding: 0.35rem 0.95rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #ff914d;
+  margin-bottom: 1.25rem;
+}
+
+.pulse-indicator {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background-color: #ff3b00;
+  border-radius: 50%;
+  margin-right: 8px;
+  box-shadow: 0 0 0 0 rgba(255, 59, 0, 0.7);
+  animation: pulse-ring 1.8s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 59, 0, 0.8);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 59, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 59, 0, 0);
+  }
+}
+
+/* Stat Counters */
+.stat-box {
+  background: linear-gradient(180deg, var(--bg-card), rgba(22, 30, 46, 0.6));
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--color-orange), transparent);
+}
+
+.stat-number {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--text-white);
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* GIS Map Container */
+#gis-map, #gis-map-preview {
+  width: 100%;
+  height: 580px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  z-index: 10;
+  background: #111;
+}
+
+#gis-map-preview {
+  height: 360px;
+}
+
+/* Custom Leaflet Dark Style & Popups */
+.leaflet-popup-content-wrapper {
+  background: #121824 !important;
+  color: #f1f5f9 !important;
+  border: 1px solid var(--color-orange) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7) !important;
+}
+
+.leaflet-popup-tip {
+  background: #121824 !important;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: #cbd5e1 !important;
+  padding: 8px 8px 0 0 !important;
+}
+
+.custom-fire-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 0 14px rgba(255, 77, 0, 0.85);
+  animation: fire-pulse 2s infinite ease-in-out;
+  cursor: pointer;
+}
+
+.marker-high {
+  background: radial-gradient(circle, #ff2200 40%, #b30000 100%);
+  border: 2px solid #ff7755;
+}
+
+.marker-medium {
+  background: radial-gradient(circle, #ff8800 40%, #cc5500 100%);
+  border: 2px solid #ffbb66;
+}
+
+.marker-controlled {
+  background: radial-gradient(circle, #0ea5e9 40%, #0369a1 100%);
+  border: 2px solid #7dd3fc;
+}
+
+@keyframes fire-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(255, 77, 0, 0.6);
+  }
+  50% {
+    transform: scale(1.15);
+    box-shadow: 0 0 20px rgba(255, 77, 0, 1);
+  }
+}
+
+/* Badges */
+.badge-eco {
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.badge-orange-subtle {
+  background: rgba(255, 107, 0, 0.15);
+  color: #ff9944;
+  border: 1px solid rgba(255, 107, 0, 0.3);
+}
+
+.badge-dark-subtle {
+  background: #1e293b;
+  color: #cbd5e1;
+  border: 1px solid #334155;
+}
+
+/* Feature Icon Circles */
+.feature-icon-circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 107, 0, 0.12);
+  color: var(--color-orange);
+  font-size: 1.5rem;
+  border: 1px solid rgba(255, 107, 0, 0.25);
+  margin-bottom: 1.25rem;
+}
+
+/* Global Impact Boxes */
+.impact-card {
+  border-left: 4px solid var(--color-orange);
+  background: var(--bg-card);
+  padding: 1.5rem;
+  border-radius: 8px;
+  height: 100%;
+}
+
+/* Forms */
+.form-control-custom, .form-select-custom {
+  background-color: #0e131d !important;
+  border: 1px solid var(--border-color) !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control-custom:focus, .form-select-custom:focus {
+  border-color: var(--color-orange) !important;
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.2) !important;
+}
+
+.form-label-custom {
+  color: #cbd5e1;
+  font-weight: 600;
+  font-size: 0.88rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Donation Cards */
+.donation-tier-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: 14px;
+  padding: 1.75rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.donation-tier-card:hover {
+  border-color: rgba(255, 107, 0, 0.6);
+  transform: translateY(-4px);
+}
+
+.donation-tier-card.selected {
+  border-color: var(--color-orange);
+  background: rgba(255, 107, 0, 0.06);
+  box-shadow: 0 8px 24px rgba(255, 107, 0, 0.25);
+}
+
+.partner-logo-pill {
+  background: #111723;
+  border: 1px solid var(--border-color);
+  padding: 0.8rem 1.4rem;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.partner-logo-pill:hover {
+  border-color: var(--color-orange);
+  color: var(--color-orange);
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #07090e;
+  border-top: 1px solid var(--border-color);
+  padding: 3.5rem 0 1.75rem 0;
+  margin-top: auto;
+}
+
+.footer-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link:hover {
+  color: var(--color-orange);
+  padding-left: 4px;
+}
+
+.table-dark-custom {
+  --bs-table-bg: #141c2b;
+  --bs-table-border-color: #273449;
+  --bs-table-hover-bg: #1a2538;
+  color: #e2e8f0;
+}

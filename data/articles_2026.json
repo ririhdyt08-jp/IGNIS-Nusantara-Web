@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "slug": "anomali-iklim-2026-karhutla-gambut-dan-pemanasan-global",
+    "title": "Lonjakan Anomali Iklim 2026: Ancaman Karhutla di Lahan Gambut Indonesia dan Pemanasan Global",
+    "category": "Isu Lingkungan Global",
+    "date": "14 November 2026",
+    "author": "Dr. Raden Hidayat, M.Sc (Pusat Riset Iklim & Atmosfer)",
+    "read_time": "5 Menit Baca",
+    "image": "assets/img/article-gambut.jpg",
+    "summary": "Memasuki akhir tahun 2026, anomali iklim tropis memicu kekeringan mendalam di lahan gambut Sumatra dan Kalimantan. Mengapa karhutla di Indonesia menjadi krisis iklim yang diperhatikan seluruh dunia?",
+    "content": "<p>Tahun 2026 mencatatkan rekor baru dalam dinamika iklim kawasan Asia Tenggara. Kombinasi fluktuasi suhu permukaan laut Samudra Hindia dan Samudra Pasifik menciptakan periode hari tanpa hujan (HTH) yang panjang di wilayah sabuk khatulistiwa Indonesia. Daerah yang paling rentan terdampak adalah kawasan hidrologis gambut (KHG) di Provinsi Riau, Jambi, Sumatera Selatan, serta Kalimantan Tengah dan Barat.</p><h4>Mengapa Lahan Gambut Indonesia Sangat Krusial bagi Bumi?</h4><p>Lahan gambut tropis Indonesia menyimpan cadangan karbon terestrial terbesar di dunia, diperkirakan mencapai lebih dari 57 gigaton karbon. Jumlah ini setara dengan puluhan kali emisi gas rumah kaca tahunan dunia. Ketika kubah gambut mengalami pengeringan akibat kanalisasi dan terpicu oleh kebakaran, api tidak hanya membakar tajuk pohon di permukaan, melainkan merambat di bawah tanah (<em>ground fire</em>) hingga kedalaman 3 hingga 5 meter.</p><p>Kebakaran bawah tanah ini menghasilkan emisi karbon dioksida ($CO_2$), karbon monoksida ($CO$), serta gas metana ($CH_4$) dalam jumlah masif. Metana memiliki potensi pemanasan global hingga 28 kali lebih kuat daripada $CO_2$ dalam jangka 100 tahun. Inilah alasan mengapa Organisasi Meteorologi Dunia (WMO) dan PBB menetapkan mitigasi karhutla Indonesia sebagai salah satu tonggak utama dalam menjaga kenaikan suhu global di bawah batas kritis 1,5°C.</p><h4>Urgensi Solusi Digital dan Kolaborasi Global</h4><p>Mengatasi kebakaran gambut tidak bisa lagi dilakukan dengan pendekatan konvensional saat api sudah membubung tinggi. Diperlukan teknologi pemantauan satelit beresolusi tinggi, integrasi data cuaca cerdas (EcoDigital), serta sistem tanggap darurat masyarakat yang transparan dan terukur.</p>"
+  },
+  {
+    "id": 2,
+    "slug": "teknologi-tmc-sensor-iot-manggala-agni-2026",
+    "title": "Integrasi Teknologi Modifikasi Cuaca (TMC) dan Sensor IoT: Senjata Baru Satgas Karhutla 2026",
+    "category": "Inovasi & Teknologi",
+    "date": "10 November 2026",
+    "author": "Satgas Udara & Tim Teknologi Informasi SiPongi",
+    "read_time": "4 Menit Baca",
+    "image": "assets/img/article-waterbombing.jpg",
+    "summary": "Manggala Agni bersama BRIN dan BMKG mengoptimalkan operasi Teknologi Modifikasi Cuaca (TMC) berbasis drone dan sensor kelembaban gambut otomatis demi menekan titik api 2026.",
+    "content": "<p>Menghadapi musim kemarau 2026, strategi penanggulangan karhutla di Indonesia bertransformasi dari sekadar respons reaktif menjadi pencegahan terpadu berbasis kecerdasan digital. Manggala Agni KLHK bersama Badan Riset dan Inovasi Nasional (BRIN) menggelar operasi Teknologi Modifikasi Cuaca (TMC) terpadu di wilayah Sumatra dan Kalimantan.</p><h4>Sensor Real-Time Tinggi Muka Air Gambut (TMA)</h4><p>Kunci mencegah terbakarnya lahan gambut adalah menjaga kubah gambut tetap basah. Melalui penempatan ratusan stasiun sensor IoT di sekat-sekat kanal, tim pengawas dapat memantau Tinggi Muka Air Gambut (TMA) secara real-time. Jika air surut melewati ambang batas aman 40 cm di bawah permukaan tanah, sistem peringatan dini (Early Warning System) langsung mengirimkan notifikasi status bahaya kepada pos komando terdekat.</p><h4>Penyemaian Awan Berpresisi Tinggi</h4><p>Dengan data radar cuaca BMKG terintegrasi, pesawat Casa dan armada drone berkapasitas muat khusus diterbangkan ke sel awan potensial untuk menyemai bahan higroskopis (NaCl micro-particles). Hujan buatan yang dihasilkan berhasil membasahi area rawan sebelum api menyala, sekaligus membantu pendinginan lahan yang sedang ditangani satgas darat.</p>"
+  },
+  {
+    "id": 3,
+    "slug": "kabut-asap-lintas-batas-diplomasi-lingkungan-2026",
+    "title": "Kabut Asap Lintas Batas 2026: Mengapa Karhutla Indonesia Menjadi Perhatian Diplomatik ASEAN",
+    "category": "Diplomasi & Hukum Lingkungan",
+    "date": "06 November 2026",
+    "author": "Siti Nurhaliza, Hubungan Internasional & Kebijakan Iklim",
+    "read_time": "6 Menit Baca",
+    "image": "assets/img/article-haze.jpg",
+    "summary": "Analisis dinamika perjanjian ASEAN Agreement on Transboundary Haze Pollution (AATHP) di tahun 2026 dan bagaimana data GIS transparan menjadi kunci transparansi antarnegara.",
+    "content": "<p>Polusi kabut asap lintas batas (<em>Transboundary Haze Pollution</em>) kembali menjadi topik hangat dalam meja perundingan negara-negara ASEAN pada November 2026. Angin muson yang bertiup ke arah barat laut berpotensi membawa partikel asap karhutla melintasi Selat Malaka menuju Singapura dan Semenanjung Malaysia jika titik api tidak segera dipadamkan.</p><h4>Data Terbuka sebagai Kunci Kepercayaan Antarnegara</h4><p>Berbeda dengan dekade sebelumnya di mana sering terjadi perdebatan klaim mengenai asal muasal asap, pada tahun 2026 transparansi data geospasial menjadi pembeda utama. Kehadiran portal GIS berbasis satelit multi-sensor (SNPP VIIRS, Terra/Aqua MODIS, dan Himawari-9) yang dapat diakses publik membuktikan komitmen Indonesia dalam keterbukaan pemantauan.</p><p>Data ini memberikan kepastian titik koordinat dan arah trajektori angin (<em>wind plume trajectory</em>), sehingga satgas bersama negara sahabat dapat saling berkoordinasi dalam bantuan armada logistik pemadaman tanpa saling menyalahkan.</p>"
+  },
+  {
+    "id": 4,
+    "slug": "penyelamatan-satwa-orangutan-kebakaran-hutan-2026",
+    "title": "Evakuasi Satwa Endemik: Menyelamatkan Orangutan dan Harimau Sumatra dari Kepungan Asap 2026",
+    "category": "Biodiversitas & Konservasi",
+    "date": "02 November 2026",
+    "author": "Tim BKSDA & Yayasan Penyelamatan Habitat",
+    "read_time": "5 Menit Baca",
+    "image": "assets/img/article-wildlife.jpg",
+    "summary": "Cerita dari garis depan penyelamatan satwa langka yang terjebak di kantung-kantung hutan tersisa akibat kebakaran lahan gambut di Ketapang dan Sebangau.",
+    "content": "<p>Di tengah kobaran api dan tebalnya asap kebakaran hutan di Ketapang, Kalimantan Barat dan Sebangau, Kalimantan Tengah, regu penyelamat satwa liar (Wild Animal Rescue Unit) bekerja tanpa henti selama 24 jam. Kebakaran hutan tidak hanya menghanguskan vegetasi, namun juga memecah koridor habitat alami satwa yang dilindungi undang-undang.</p><h4>Dampak ISPU Ekstrem terhadap Primata</h4><p>Sama halnya dengan manusia, satwa liar seperti Orangutan Kalimantan (<em>Pongo pygmaeus</em>) menderita Infeksi Saluran Pernapasan Akut (ISPA) akibat paparan partikulat berbahaya PM2.5. Tim medis hewan di lapangan menemukan beberapa induk dan anak orangutan mengalami dehidrasi parah dan lemas di dahan pohon yang terkepung abu panas.</p><p>Bantuan medis darurat, suplemen elektrolit, serta translokasi ke pusat rehabilitasi suaka margasatwa menjadi satu-satunya harapan agar populasi mereka tidak terhapus dari muka bumi selamanya.</p>"
+  },
+  {
+    "id": 5,
+    "slug": "panduan-kesehatan-mitigasi-asap-pm25-2026",
+    "title": "Panduan Kesehatan Warga 2026: Melindungi Pernapasan dari Racun Partikel Asap PM2.5",
+    "category": "Kesehatan Masyarakat",
+    "date": "28 Oktober 2026",
+    "author": "dr. Fajar Kusuma, Sp.P (Spesialis Paru & Pernapasan)",
+    "read_time": "4 Menit Baca",
+    "image": "assets/img/article-health.jpg",
+    "summary": "Ketahui bahaya partikel halus berukuran 2.5 mikrometer dari pembakaran gambut dan protokol perlindungan kesehatan keluarga di area terdampak karhutla.",
+    "content": "<p>Asap kebakaran lahan gambut memiliki karakteristik yang jauh lebih beracun dibandingkan kebakaran kayu kering biasa. Gambut tersusun dari material organik purba yang terbakar pada suhu relatif rendah tanpa oksigen sempurna (<em>smoldering combustion</em>), menghasilkan senyawa Polycyclic Aromatic Hydrocarbons (PAHs), formaldehida, acrolein, serta partikel nano PM2.5.</p><h4>5 Langkah Wajib Perlindungan Kesehatan:</h4><ol><li><strong>Gunakan Masker Standar N95 / KF94:</strong> Masker kain atau masker bedah biasa tidak mampu menyaring partikel PM2.5 yang memiliki diameter 30 kali lebih kecil dari sehelai rambut manusia.</li><li><strong>Ciptakan Clean Air Shelter di Rumah:</strong> Tutup celah ventilasi dengan kain lembab saat asap pekat, dan gunakan penjernih udara (Air Purifier) dengan filter HEPA.</li><li><strong>Pantau Angka ISPU Harian:</strong> Jika nilai ISPU berada di atas 150 (Kategori Tidak Sehat), batasi seluruh kegiatan fisik di luar ruangan, terutama bagi anak-anak, lansia, dan ibu hamil.</li><li><strong>Konsumsi Air Putih Lebih Banyak:</strong> Membantu tubuh membuang racun yang terserap dan menjaga selaput lendir tenggorokan tetap lembab.</li><li><strong>Segera ke Posko Kesehatan:</strong> Bila timbul sesak nafas mendadak, mata pedih berat, atau batuk berdahak gelap, segera kunjungi fasilitas kesehatan terdekat untuk mendapatkan terapi oksigen.</li></ol>"
+  }
+]
