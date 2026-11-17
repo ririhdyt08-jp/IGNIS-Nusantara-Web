@@ -10,11 +10,11 @@
 ---
 
 ## 📌 Identitas Tim & Anggota
-* **Format Nama Folder / Repo:** `webdesign_IGNIS_technoversary_vol.II` *(Dapat disesuaikan dengan Nama Tim Resmi Anda)*
-* **Nama Tim:** Tim IGNIS (EmberWatch Developer Team)
+* **Format Nama Folder / Repo:** `webdesign_IGNIS_technoversary_vol.II`
+* **Nama Tim:** Blaratan
 * **Ketua Tim:** [Nama Ketua Tim Anda] (NIM / Asal Institusi)
-* **Anggota 1:** [Nama Anggota 1] (NIM / Asal Institusi)
-* **Anggota 2:** [Nama Anggota 2] (NIM / Asal Institusi)
+* **Anggota 1:** Fies Medhali Anugrahsyah - Politeknik Negeri Indramayu
+* **Anggota 2:** Risma Hidayati - Politeknik Negeri Indramayu
 * **Tahun Rilis Proyek:** November 2026
 
 ---
